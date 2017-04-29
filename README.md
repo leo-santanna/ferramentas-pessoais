@@ -1,2 +1,2 @@
 # ferramentas-pessoais
-Algumas ferramentas que utilizado para otimizar o processo de desenvolvimento dos projetos em que atuo.
+Algumas ferramentas que utilizo para otimizar o processo de desenvolvimento dos projetos em que atuo.
