@@ -5,11 +5,14 @@ var imagemin = require('gulp-imagemin');
 
 gulp.task('watch', function() {
 	livereload.listen();
-	gulp.watch('**/*.js');
-	gulp.watch('**/*.css');
-	gulp.watch('**/*.php');
-	gulp.watch('**/*.html');
-	gulp.watch('gulpfile.js');
+	gulp.watch([
+		'**/*.js',
+		'**/*.css',
+		'**/*.php',
+		'**/*.html',
+		'gulpfile.js',
+		'!node_modules/**/*'
+		]);
 });
 
 gulp.task('browser-sync', function () {
